@@ -8,8 +8,9 @@ conda activate whisper_env`
 `pip install -U openai-whisper`
 3. ffmpeg
 `conda install -c conda-forge ffmpeg -y`
-4.If you are using an nvidia gpu, Cuda also speeds the model up by alot, you can download CUDA toolkit from the nvidia website. Also make sure that your torch version aligns with your CUDA version. 
-##Usage
+4.If you are using an nvidia gpu, Cuda also speeds the model up by alot, you can download CUDA toolkit from the nvidia website. Also make sure that your torch version aligns with your CUDA version.
+
+# Usage
 Make sure the script and the videos you wish to transcribe are put into the same folder named "transcribe". Running the script by for example:
 `conda activate whisper_env
 python transcribe.py
