@@ -1,5 +1,6 @@
 # Simple Video Transcibe Example
 This is a simple script to demonstrate a setup using openai-whisper to transcribe contents of a .mp4 to a txt transcript. It should be simple enough to use as is. But note that there are several dependencies. Assuming you have pip and a python package management system (conda):
+# Dependencies and Setup
 ```
 conda create -n whisper_env python=3.11 -y
 conda activate whisper_env
